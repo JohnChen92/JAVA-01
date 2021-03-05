@@ -26,7 +26,7 @@ CREATE TABLE customer_info (
 		update_time TIMESTAMP
 		)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-CREATE TABLE product( 
+CREATE TABLE product_info( 
 		id int(32) primary key not null auto_increment,
 		optimistic bigint(64) not null,
 		product_no varchar(64) not null,
